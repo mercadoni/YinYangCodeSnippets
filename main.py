@@ -20,5 +20,6 @@ def signV1(payload, key):
   signed_string = hmac.new(byte_key, encoded_string_to_sign, hashlib.sha256).hexdigest()
 
   return signed_string
-# print the output
+
+# Print the signed string
 print(signV1(payload, key))
