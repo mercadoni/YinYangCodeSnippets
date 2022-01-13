@@ -1,7 +1,7 @@
 # Code Snippets
 Instaleap code snippets examples. In this repository you can find some code snippets in several languages, that you can use as an example to integrate with our systems.
 
-You can navigate the code inside this repo or could run the snippets online directly in the next links:
+You can navigate the code inside this repo or could run the snippets online directly in the next links (PLEASE DON'T CHANGE THE CODE IN THERE):
 
 ## Signature V1 snippets
 
