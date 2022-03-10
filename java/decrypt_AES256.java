@@ -23,15 +23,15 @@ public static String decrypt(String encrypted, String initVector, String key) {
    public static void main(String[] args) {
 
     // Key given to you by Instaleap
-    String key= ")J@NcRXn2r5u8fUjx/A%D*G-KaPdSgVk";
+    String key= "7ZEYKlLdCA5fVySubsetmjdknROS7wFB";
     // Initial vector, you can find it in the payload of the webhook inside "identification" object
-    String initVector = "QkJCQkJCCQkJCQkQkJJCQg==";
+    String iv = "6maEJ/ULdKB";
     // Encrypted data that you can find in the payload of the webhook inside "identification" object
-    String encodedData = "fvTA7GvQvX3qwZU15qDeRG8fUfk1/fndOOTsZTu2ftM=";
+    String encryptedData = "CPEqmqjdpqx86dVRtU8mENJ3mwh5P3nYYa7WWyU5NTvqWuiFD2t74jvBR7YpIDHf";
 
 
     // Here we call and print the function decrypt defined above
-    System.out.println(decrypt(encodedData,initVector,key));
+    System.out.println(decrypt(encryptedData, iv,key));
 
 
   }

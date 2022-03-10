@@ -11,13 +11,13 @@ const decrypt = (key, crypticResponse)=> {
 }
 
 // Key given to you by Instaleap
-const key = "8y/B?E(H+ShVmMbPeYq3t6w9z$C&F)J@"
+const key = "7ZEYKlLdCA5fVySubsetmjdknROS7wFB"
 
 // Initial vector, you can find it in the payload of the webhook inside "identification" object
-const iv = "+nHd/pLHSx5eYdDCKFnSUw=="
+const iv = "6maEJ/ULdKBO4OIKz3/NWA=="
 
 // Encrypted data that you can find in the payload of the webhook inside "identification" object
-const encryptedData = "vID0K2x2M+kbZOCgbvaqzNJzCY2LuawjFRcCDmyiXgs="
+const encryptedData = "CPEqmqjdpqx86dVRtU8mENJ3mwh5P3nYYa7WWyU5NTvqWuiFD2t74jvBR7YpIDHf"
 
 // Here we call the function decrypt defined above
-console.log('Decrypted  Data: ', decrypt(encryptedData, key, iv))
+console.log('Decrypted  Data: ', decrypt(key, {encryptedData,iv}))
