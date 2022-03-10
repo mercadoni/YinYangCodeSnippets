@@ -1,3 +1,4 @@
+
 const crypto = require('crypto');
 
 //This is a reduced payload example used only for demonstration purposes
@@ -17,4 +18,4 @@ const signV1 = (payload, key)=>{
 }
 
 // Print the signed string
-console.log(signV1(payload,key))
+console.log('instaleap-signature: '+signV1(payload,key))

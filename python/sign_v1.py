@@ -22,4 +22,4 @@ def signV1(payload, key):
   return signed_string
 
 # Print the signed string
-print(signV1(payload, key))
+print('instaleap-signature: '+signV1(payload, key))
